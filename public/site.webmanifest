@@ -1,6 +1,7 @@
 {
-  "name": "Sink",
-  "short_name": "Sink",
+  "name": "AKA",
+  "short_name": "AKA",
+  "start_url": "https://cfsc.cc/dashboard",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,6 +16,5 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone",
-  "start_url": "/dashboard"
+  "display": "standalone"
 }
