@@ -1,7 +1,8 @@
 {
   "name": "AKA",
   "short_name": "AKA",
-  "start_url": "https://cfsc.cc/dashboard",
+  "start_url": "/dashboard",
+  "scope": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

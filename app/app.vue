@@ -28,6 +28,10 @@ useHead({
   ],
   link: [
     {
+      rel: 'manifest',
+      href: '/site.webmanifest',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/icon-192.png',
