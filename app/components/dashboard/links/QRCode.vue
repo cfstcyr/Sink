@@ -14,15 +14,14 @@ const props = defineProps({
 })
 const color = ref('#000000')
 const options = {
-  width: 1024,
-  height: 1024,
+  width: 256,
+  height: 256,
   data: props.data,
   margin: 10,
   qrOptions: { typeNumber: '0', mode: 'Byte', errorCorrectionLevel: 'Q' },
   imageOptions: { hideBackgroundDots: true, imageSize: 0.4, margin: 2 },
   dotsOptions: { type: 'dots', color: '#000000', gradient: null },
   backgroundOptions: { color: '#ffffff', gradient: null },
-  image: props.image,
   dotsOptionsHelper: {
     colorType: { single: true, gradient: false },
     gradient: {
