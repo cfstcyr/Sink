@@ -16,6 +16,7 @@ const color = ref('#000000')
 const options = {
   width: 256,
   height: 256,
+  type: 'svg',
   data: props.data,
   margin: 10,
   qrOptions: { typeNumber: '0', mode: 'Byte', errorCorrectionLevel: 'Q' },
@@ -102,20 +103,6 @@ onMounted(() => {
       class="bg-white p-1 rounded-lg"
     />
     <div class="flex items-center gap-4">
-      <div class="relative flex items-center">
-        <div
-          class="w-8 h-8 rounded-full border border-gray-300 dark:border-gray-600 cursor-pointer overflow-hidden"
-          :style="{ backgroundColor: color }"
-          title="Change QR code color"
-        >
-          <input
-            v-model="color"
-            type="color"
-            class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-            title="Change QR code color"
-          >
-        </div>
-      </div>
       <Button
         variant="outline"
         size="sm"
