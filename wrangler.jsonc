@@ -21,6 +21,11 @@
       "dataset": "sink"
     }
   ],
+  "observability": {
+    "logs": {
+      "enabled": true
+    }
+  },
   "kv_namespaces": [
     {
       "binding": "KV",
