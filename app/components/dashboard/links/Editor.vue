@@ -132,7 +132,6 @@ const { previewMode } = useRuntimeConfig().public
     <DialogTrigger as-child>
       <slot>
         <Button
-          class="ml-2"
           variant="outline"
           @click="randomSlug"
         >
