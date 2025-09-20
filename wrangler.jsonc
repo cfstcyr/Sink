@@ -31,5 +31,8 @@
       "binding": "KV",
       "id": "6ed447029781472fb37451d1a6d3623e" // IMPORTANT: Change this to your KV namespace ID
     }
-  ]
+  ],
+  "vars": {
+    "NUXT_HOME_URL": "/dashboard"
+  }
 }
